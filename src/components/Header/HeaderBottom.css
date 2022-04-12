@@ -1,0 +1,22 @@
+.header-bottom-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(32, 33, 37);
+  color: white;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.menu-container .menu-icon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+.menutype {
+  font-weight: 500;
+  margin-right: 15px;
+  cursor: pointer;
+}
