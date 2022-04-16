@@ -24,6 +24,7 @@ function Header() {
 
         <div className="nav-content">
           <FiShoppingCart className="cart-icon" />
+          <span className="cart-number">8</span>
         </div>
       </div>
     </div>

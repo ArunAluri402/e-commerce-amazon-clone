@@ -34,7 +34,7 @@ input:focus {
   font-size: 22px;
   background-color: orange;
   padding: 7.5px 10px;
-  color: rgb(55, 55, 55);
+  color: rgb(92, 92, 92);
   border-radius: 0px 4px 4px 0px;
   cursor: pointer;
 }
@@ -64,4 +64,13 @@ span {
   font-size: 22px;
   padding: 8px;
   margin-top: 5px;
+  position: relative;
+}
+
+.cart-number {
+  font-weight: bold;
+  color: orange;
+  font-size: medium;
+  position: absolute;
+  top: 20px;
 }
