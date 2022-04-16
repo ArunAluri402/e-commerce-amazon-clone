@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import HeaderBottom from "./components/Header/HeaderBottom";
 import MainSection from "./components/Main/MainSection";
+import Product from "./components/Main/Product";
 import banner1 from "./images/banner1.jpg";
 import banner2 from "./images/banner2.jpg";
 import banner3 from "./images/banner3.jpg";
@@ -27,6 +28,7 @@ function App() {
       <Header />
       <HeaderBottom />
       <MainSection images={bannerImages} />
+      <Product />
     </div>
   );
 }

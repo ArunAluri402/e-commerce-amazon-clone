@@ -34,7 +34,7 @@ function MainSection({ images }) {
           }
           if (
             indexImage === index - 1 ||
-            (index === 0 && indexImage === image.length - 1)
+            (index === 0 && indexImage === images.length - 1)
           ) {
             position = "lastSlide";
           }
@@ -45,10 +45,10 @@ function MainSection({ images }) {
           );
         })}
         <p className="prev" onClick={() => setIndex(index - 1)}>
-          <IoChevronBack className="" />
+          <IoChevronBack />
         </p>
         <p className="next" onClick={() => setIndex(index + 1)}>
-          <IoChevronForward className="" />
+          <IoChevronForward />
         </p>
       </div>
     </div>
