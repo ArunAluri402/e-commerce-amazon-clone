@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(3, 29, 29);
+  background-color: rgb(23, 23, 23);
   padding: 8px;
 }
 
@@ -11,6 +11,7 @@
   object-fit: contain;
   padding-top: 5px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .search-bar-container {
@@ -31,6 +32,7 @@
   padding: 7.5px 10px;
   color: rgb(55, 55, 55);
   border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
 }
 
 .nav-elements {
@@ -42,6 +44,7 @@
 
 .nav-content {
   margin-right: 19px;
+  cursor: pointer;
 }
 
 span {
